@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8b99d4e7-cedc-429d-91fc-a6c7ddf148ae" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/api-gateway (1)/api-gateway">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/chatbot-engine">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0001205717919568" />
+      <entry key="S5" value="1.045121913487307" />
+      <entry key="S10" value="1.353610227974527" />
+      <entry key="S30" value="2.4556579912609138" />
+      <entry key="S60" value="3.0868175940095774" />
+      <entry key="M2" value="3.5012020375911845" />
+      <entry key="M5" value="3.793097076398409" />
+      <entry key="M10" value="4.56652673193468" />
+      <entry key="M15" value="7.891954007138599" />
+      <entry key="M30" value="28.249183850023492" />
+      <entry key="H1" value="66.1690945797054" />
+      <entry key="H2" value="105.26160633011116" />
+      <entry key="H4" value="134.07480323029895" />
+      <entry key="D1" value="164.9191260564125" />
+      <entry key="W1" value="170.96787173533443" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.1675857754290892E-90" />
+      <entry key="MS500" value="1.0314727500969325E-18" />
+      <entry key="S2" value="3.186870673911783E-5" />
+      <entry key="S5" value="0.01589812018910448" />
+      <entry key="S10" value="0.1260877479737999" />
+      <entry key="S30" value="0.5014461439346835" />
+      <entry key="S60" value="0.7081286210390619" />
+      <entry key="M2" value="0.8415037855170056" />
+      <entry key="M5" value="0.9333113177236875" />
+      <entry key="M10" value="0.9690584571353126" />
+      <entry key="M15" value="0.9984755429003057" />
+      <entry key="M30" value="1.1560185479585703" />
+      <entry key="H1" value="1.5274155311567963" />
+      <entry key="H2" value="2.0053239754207155" />
+      <entry key="H4" value="2.4097192836899723" />
+      <entry key="D1" value="2.885172029400611" />
+      <entry key="W1" value="2.9831364314178153" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9075191553171609" />
+      <entry key="MS500" value="0.9807790039885513" />
+      <entry key="S2" value="0.9952773980739169" />
+      <entry key="S5" value="1.047195125658787" />
+      <entry key="S10" value="1.4189263388424438" />
+      <entry key="S30" value="2.8621955172001807" />
+      <entry key="S60" value="3.724826775744639" />
+      <entry key="M2" value="4.30006757384657" />
+      <entry key="M5" value="4.707224114679083" />
+      <entry key="M10" value="5.52545770022526" />
+      <entry key="M15" value="8.883032034977754" />
+      <entry key="M30" value="29.3993743282566" />
+      <entry key="H1" value="67.69104624565277" />
+      <entry key="H2" value="107.26255328574284" />
+      <entry key="H4" value="136.4816359500537" />
+      <entry key="D1" value="167.80367984705353" />
+      <entry key="W1" value="173.9509158038043" />
+    </decayedShown>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="3EqawnbfD1cnFwJTOGMDGhRjSv4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build api-gateway.executor": "Run",
+    "Gradle.Build chatbot-engine.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.ApiGatewayApplication.executor": "Run",
+    "Spring Boot.ChatbotEngineApplication.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/ChatBot-platform",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/ChatBot-platform/chatbot-engine/src/main/java/com/chatbot/Main.java",
+    "settings.editor.selected.configurable": "terminal",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="api-gateway.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chatbot.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChatbotEngineApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="chatbot-engine.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chatbot.engine.ChatbotEngineApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b99d4e7-cedc-429d-91fc-a6c7ddf148ae" name="Changes" comment="" />
+      <created>1780908794598</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1780908794598</updated>
+      <workItem from="1780908795659" duration="221000" />
+      <workItem from="1780909995555" duration="54000" />
+      <workItem from="1780910463593" duration="7971000" />
+      <workItem from="1780978537616" duration="5976000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.py" />
+  </component>
+</project>

@@ -241,3 +241,13 @@ chatbot-platform/
 └── chatbot-engine-fastapi/
     └── (FastAPI service - not containerized in this task)
 
+
+IMP. REPO
+
+docker hub
+nexus
+ECR
+QUAY
+ACR
+
+

@@ -11,7 +11,6 @@ pipeline {
         REGISTRY = 'localhost'
         IMAGE_PREFIX = 'chatbot'
         BUILD_TAG = "${BUILD_NUMBER}"
-        JAVA_HOME = '/usr/lib/jvm/java-17-openjdk-amd64'
     }
 
     parameters {

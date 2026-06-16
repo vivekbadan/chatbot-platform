@@ -44,7 +44,7 @@ pipeline {
         stage('Prepare Gradle Wrappers') {
             steps {
                 sh '''
-                    chmod +x "./api-gateway (1)/api-gateway/gradlew"
+                    chmod +x "./api-gateway/api-gateway/gradlew"
                     chmod +x "./chatbot-bridge/chatbot-bridge/gradlew"
                     chmod +x "./organization-service/organization-service/gradlew"
                     chmod +x "./chatbot-engine/gradlew"
@@ -57,7 +57,7 @@ pipeline {
                 stage('API Gateway') {
                     steps {
                         script {
-                            dir('./api-gateway (1)/api-gateway') {
+                            dir('./api-gateway/api-gateway') {
                                 echo 'Building API Gateway...'
                                 def buildCmd = params.CLEAN_BUILD ? 'bash ./gradlew clean build' : 'bash ./gradlew build'
                                 if (params.SKIP_TESTS) {
@@ -70,9 +70,9 @@ pipeline {
                     }
                     post {
                         always {
-                            junit testResults: 'api-gateway (1)/api-gateway/build/test-results/test/*.xml',
+                            junit testResults: 'api-gateway/api-gateway/build/test-results/test/*.xml',
                                   allowEmptyResults: true
-                            archiveArtifacts artifacts: 'api-gateway (1)/api-gateway/build/libs/*.jar',
+                            archiveArtifacts artifacts: 'api-gateway/api-gateway/build/libs/*.jar',
                                               allowEmptyArchive: true
                         }
                     }
@@ -157,7 +157,7 @@ pipeline {
                 stage('Docker: API Gateway') {
                     steps {
                         sh '''
-                            cd "./api-gateway (1)/api-gateway"
+                            cd "./api-gateway/api-gateway"
                             docker build -f Dockerfile \
                                 -t ${REGISTRY}/${IMAGE_PREFIX}-api-gateway:${BUILD_TAG} \
                                 -t ${REGISTRY}/${IMAGE_PREFIX}-api-gateway:latest \

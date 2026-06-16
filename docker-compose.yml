@@ -37,7 +37,7 @@ services:
       - backend
 
   api-gateway:
-    build: "./api-gateway (1)/api-gateway"
+    build: "./api-gateway/api-gateway"
     ports:
       - "8080:8080"
     depends_on:

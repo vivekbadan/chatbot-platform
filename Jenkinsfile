@@ -2,13 +2,10 @@ pipeline {
     agent any
     
     options {
+        timestamps()
         timeout(time: 30, unit: 'MINUTES')
         buildDiscarder(logRotator(numToKeepStr: '10'))
         disableConcurrentBuilds()
-    }
-    
-    wrapper {
-        timestamps()
     }
     
     environment {
@@ -49,14 +46,7 @@ pipeline {
                     echo "Checking out code from Git repository"
                     echo "========================================="
                 }
-                checkout([
-                    $class: 'GitSCM',
-                    branches: [[name: "${env.GIT_BRANCH}"]],
-                    userRemoteConfigs: [[
-                        url: 'https://github.com/vivekbadan/chatbot-platform.git',
-                        credentialsId: 'github-token'
-                    ]]
-                ])
+                checkout scm
                 script {
                     echo "Git checkout complete"
                     echo "Branch: ${env.GIT_BRANCH_NAME}"

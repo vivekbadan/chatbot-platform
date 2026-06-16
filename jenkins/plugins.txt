@@ -1,0 +1,7 @@
+git
+workflow-aggregator
+docker-workflow
+junit
+credentials-binding
+scm-api
+pipeline-stage-view

@@ -41,6 +41,17 @@ pipeline {
             }
         }
 
+        stage('Prepare Gradle Wrappers') {
+            steps {
+                sh '''
+                    chmod +x "./api-gateway (1)/api-gateway/gradlew"
+                    chmod +x "./chatbot-bridge/chatbot-bridge/gradlew"
+                    chmod +x "./organization-service/organization-service/gradlew"
+                    chmod +x "./chatbot-engine/gradlew"
+                '''
+            }
+        }
+
         stage('Build & Test - Parallel') {
             parallel {
                 stage('API Gateway') {
@@ -48,7 +59,7 @@ pipeline {
                         script {
                             dir('./api-gateway (1)/api-gateway') {
                                 echo 'Building API Gateway...'
-                                def buildCmd = params.CLEAN_BUILD ? './gradlew clean build' : './gradlew build'
+                                def buildCmd = params.CLEAN_BUILD ? 'bash ./gradlew clean build' : 'bash ./gradlew build'
                                 if (params.SKIP_TESTS) {
                                     buildCmd += ' -x test'
                                 }
@@ -72,7 +83,7 @@ pipeline {
                         script {
                             dir('./chatbot-bridge/chatbot-bridge') {
                                 echo 'Building Chatbot Bridge...'
-                                def buildCmd = params.CLEAN_BUILD ? './gradlew clean build' : './gradlew build'
+                                def buildCmd = params.CLEAN_BUILD ? 'bash ./gradlew clean build' : 'bash ./gradlew build'
                                 if (params.SKIP_TESTS) {
                                     buildCmd += ' -x test'
                                 }
@@ -96,7 +107,7 @@ pipeline {
                         script {
                             dir('./organization-service/organization-service') {
                                 echo 'Building Organization Service...'
-                                def buildCmd = params.CLEAN_BUILD ? './gradlew clean build' : './gradlew build'
+                                def buildCmd = params.CLEAN_BUILD ? 'bash ./gradlew clean build' : 'bash ./gradlew build'
                                 if (params.SKIP_TESTS) {
                                     buildCmd += ' -x test'
                                 }
@@ -120,7 +131,7 @@ pipeline {
                         script {
                             dir('./chatbot-engine') {
                                 echo 'Building Chatbot Engine...'
-                                def buildCmd = params.CLEAN_BUILD ? './gradlew clean build' : './gradlew build'
+                                def buildCmd = params.CLEAN_BUILD ? 'bash ./gradlew clean build' : 'bash ./gradlew build'
                                 if (params.SKIP_TESTS) {
                                     buildCmd += ' -x test'
                                 }

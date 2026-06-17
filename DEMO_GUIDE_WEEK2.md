@@ -401,3 +401,4 @@ This allows tests to run with an embedded H2 database instead of requiring a rea
 
 
 test 
+cat .git/hooks/post-commit

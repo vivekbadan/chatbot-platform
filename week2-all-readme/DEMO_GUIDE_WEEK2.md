@@ -402,3 +402,16 @@ This allows tests to run with an embedded H2 database instead of requiring a rea
 
 test 
 cat .git/hooks/post-commit
+
+
+cd /mnt/c/Users/ujjawal.maheshwari/Documents/chatbot-platform
+docker compose up -d
+
+docker exec -u root -it jenkins-chatbot-ci bash -lc "chmod 666 /var/run/docker.sock"
+docker restart jenkins-chatbot-ci
+
+docker ps
+
+jenkins-chatbot-ci         ✅ Up
+chatbot-platform-db-1      ✅ Up
+chatbot-platform-rabbitmq-1 ✅ Up

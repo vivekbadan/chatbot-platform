@@ -287,3 +287,11 @@ chmod +x .git/hooks/pre-commit
 - **Git Hooks Documentation**: https://git-scm.com/docs/githooks
 - **Jenkins API**: https://wiki.jenkins.io/display/JENKINS/Remote+access+API
 - **Jenkins Credentials**: https://www.jenkins.io/doc/book/using/using-credentials/
+
+
+<!-- wsl
+cd /mnt/c/Users/ujjawal.maheshwari/Documents/chatbot-platform
+docker compose up -d
+docker start jenkins-chatbot-ci
+docker exec -u root -it jenkins-chatbot-ci bash -lc "chmod 666 /var/run/docker.sock"
+docker restart jenkins-chatbot-ci -->

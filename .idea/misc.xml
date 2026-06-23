@@ -3,7 +3,9 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/api-gateway (1)/api-gateway" />
+    <file type="web" url="file://$PROJECT_DIR$/chatbot-bridge/chatbot-bridge" />
     <file type="web" url="file://$PROJECT_DIR$/chatbot-engine" />
+    <file type="web" url="file://$PROJECT_DIR$/organization-service/organization-service" />
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="17" project-jdk-type="JavaSDK" />
 </project>

@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/ChatBot-platform.iml" filepath="$PROJECT_DIR$/.idea/ChatBot-platform.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-gateway.main.iml" filepath="$PROJECT_DIR$/.idea/modules/api-gateway.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chatbot-bridge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/chatbot-bridge.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/organization-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/organization-service.main.iml" />
     </modules>
   </component>
 </project>

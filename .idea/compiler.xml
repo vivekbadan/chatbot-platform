@@ -5,9 +5,15 @@
       <module name="api-gateway" options="-parameters" />
       <module name="api-gateway.main" options="-parameters" />
       <module name="api-gateway.test" options="-parameters" />
+      <module name="chatbot-bridge" options="-parameters" />
+      <module name="chatbot-bridge.main" options="-parameters" />
+      <module name="chatbot-bridge.test" options="-parameters" />
       <module name="chatbot-engine" options="-parameters" />
       <module name="chatbot-engine.main" options="-parameters" />
       <module name="chatbot-engine.test" options="-parameters" />
+      <module name="organization-service" options="-parameters" />
+      <module name="organization-service.main" options="-parameters" />
+      <module name="organization-service.test" options="-parameters" />
     </option>
   </component>
 </project>

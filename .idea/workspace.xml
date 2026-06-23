@@ -4,7 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b99d4e7-cedc-429d-91fc-a6c7ddf148ae" name="Changes" comment="" />
+    <list default="true" id="8b99d4e7-cedc-429d-91fc-a6c7ddf148ae" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/chatbot-bridge.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway (1)/api-gateway/src/main/java/com/chatbot/apigateway/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway (1)/api-gateway/src/main/java/com/chatbot/apigateway/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway (1)/api-gateway/src/main/java/com/chatbot/apigateway/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway (1)/api-gateway/src/main/java/com/chatbot/apigateway/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway (1)/api-gateway/src/main/java/com/chatbot/apigateway/filter/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway (1)/api-gateway/src/main/java/com/chatbot/apigateway/security/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-bridge/chatbot-bridge/src/main/java/com/chatbot/chatbotbridge/config/OpenApiConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-bridge/chatbot-bridge/src/main/java/com/chatbot/chatbotbridge/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-engine-fastapi/api/engine_routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-engine-fastapi/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-engine-fastapi/models/chat_schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-engine-fastapi/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-engine-fastapi/tests/test_chat_schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-engine-fastapi/tests/test_health.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization-service/organization-service/src/main/java/com/chatbot/organizationservice/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization-service/organization-service/src/main/java/com/chatbot/organizationservice/controller/ContextController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization-service/organization-service/src/main/java/com/chatbot/organizationservice/controller/OrganizationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization-service/organization-service/src/main/java/com/chatbot/organizationservice/controller/ProjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization-service/organization-service/src/main/java/com/chatbot/organizationservice/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization-service/organization-service/src/main/java/com/chatbot/organizationservice/dto/ContextResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization-service/organization-service/src/main/java/com/chatbot/organizationservice/entity/Organization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization-service/organization-service/src/main/java/com/chatbot/organizationservice/entity/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization-service/organization-service/src/main/java/com/chatbot/organizationservice/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization-service/organization-service/src/main/java/com/chatbot/organizationservice/repository/OrganizationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization-service/organization-service/src/main/java/com/chatbot/organizationservice/repository/ProjectRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization-service/organization-service/src/main/java/com/chatbot/organizationservice/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization-service/organization-service/src/main/java/com/chatbot/organizationservice/service/OrganizationContextService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization-service/organization-service/src/main/java/com/chatbot/organizationservice/service/OrganizationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization-service/organization-service/src/main/java/com/chatbot/organizationservice/service/ProjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization-service/organization-service/src/main/java/com/chatbot/organizationservice/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway (1)/api-gateway/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway (1)/api-gateway/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway (1)/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway (1)/api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-bridge/chatbot-bridge/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-bridge/chatbot-bridge/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-bridge/chatbot-bridge/src/main/java/com/chatbot/chatbotbridge/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-bridge/chatbot-bridge/src/main/java/com/chatbot/chatbotbridge/ChatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-bridge/chatbot-bridge/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-bridge/chatbot-bridge/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-engine-fastapi/.env" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-engine-fastapi/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-engine-fastapi/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-engine-fastapi/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-engine/.gradle/9.3.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-engine/.gradle/9.3.0/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-engine/.gradle/9.3.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-engine/.gradle/9.3.0/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-engine/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-engine/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-engine/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-engine/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-engine/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-engine/build/reports/problems/problems-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/organization-service/organization-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/organization-service/organization-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/organization-service/organization-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/organization-service/organization-service/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +65,13 @@
     <projectState path="$PROJECT_DIR$/api-gateway (1)/api-gateway">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/chatbot-bridge/chatbot-bridge">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/chatbot-engine">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/organization-service/organization-service">
       <ProjectState />
     </projectState>
   </component>
@@ -40,63 +97,66 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/api-gateway (1)/api-gateway/src/main/java/com/chatbot/apigateway/filter/JwtAuthenticationFilter.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0001205717919568" />
-      <entry key="S5" value="1.045121913487307" />
-      <entry key="S10" value="1.353610227974527" />
-      <entry key="S30" value="2.4556579912609138" />
-      <entry key="S60" value="3.0868175940095774" />
-      <entry key="M2" value="3.5012020375911845" />
-      <entry key="M5" value="3.793097076398409" />
-      <entry key="M10" value="4.56652673193468" />
-      <entry key="M15" value="7.891954007138599" />
-      <entry key="M30" value="28.249183850023492" />
-      <entry key="H1" value="66.1690945797054" />
-      <entry key="H2" value="105.26160633011116" />
-      <entry key="H4" value="134.07480323029895" />
-      <entry key="D1" value="164.9191260564125" />
-      <entry key="W1" value="170.96787173533443" />
+      <entry key="MS100" value="1.33678568616993" />
+      <entry key="MS500" value="3.663517023995948" />
+      <entry key="S2" value="7.982625512908129" />
+      <entry key="S5" value="12.897407660778947" />
+      <entry key="S10" value="16.12558417385403" />
+      <entry key="S30" value="19.135868330905865" />
+      <entry key="S60" value="20.03350109944619" />
+      <entry key="M2" value="20.55393768519974" />
+      <entry key="M5" value="22.996292048969863" />
+      <entry key="M10" value="29.065798890238067" />
+      <entry key="M15" value="33.659003630732386" />
+      <entry key="M30" value="40.947795531855746" />
+      <entry key="H1" value="47.120076934058794" />
+      <entry key="H2" value="67.78485895195836" />
+      <entry key="H4" value="149.60286967000113" />
+      <entry key="D1" value="670.0410438732166" />
+      <entry key="W1" value="959.7981654917481" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.1675857754290892E-90" />
-      <entry key="MS500" value="1.0314727500969325E-18" />
-      <entry key="S2" value="3.186870673911783E-5" />
-      <entry key="S5" value="0.01589812018910448" />
-      <entry key="S10" value="0.1260877479737999" />
-      <entry key="S30" value="0.5014461439346835" />
-      <entry key="S60" value="0.7081286210390619" />
-      <entry key="M2" value="0.8415037855170056" />
-      <entry key="M5" value="0.9333113177236875" />
-      <entry key="M10" value="0.9690584571353126" />
-      <entry key="M15" value="0.9984755429003057" />
-      <entry key="M30" value="1.1560185479585703" />
-      <entry key="H1" value="1.5274155311567963" />
-      <entry key="H2" value="2.0053239754207155" />
-      <entry key="H4" value="2.4097192836899723" />
-      <entry key="D1" value="2.885172029400611" />
-      <entry key="W1" value="2.9831364314178153" />
+      <entry key="MS100" value="9.779569383833256E-31" />
+      <entry key="MS500" value="9.955519937722385E-7" />
+      <entry key="S2" value="0.0315875532176154" />
+      <entry key="S5" value="0.2510766900172016" />
+      <entry key="S10" value="0.5010755332454393" />
+      <entry key="S30" value="0.7942692192923954" />
+      <entry key="S60" value="0.8912213852835497" />
+      <entry key="M2" value="0.9463753713833153" />
+      <entry key="M5" value="1.1058199949228005" />
+      <entry key="M10" value="1.4918000919197" />
+      <entry key="M15" value="1.7881181176185177" />
+      <entry key="M30" value="2.25904822668175" />
+      <entry key="H1" value="2.655601903717333" />
+      <entry key="H2" value="3.527287385417284" />
+      <entry key="H4" value="6.235513325659361" />
+      <entry key="D1" value="18.83656367108319" />
+      <entry key="W1" value="24.771170156359222" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9075191553171609" />
-      <entry key="MS500" value="0.9807790039885513" />
-      <entry key="S2" value="0.9952773980739169" />
-      <entry key="S5" value="1.047195125658787" />
-      <entry key="S10" value="1.4189263388424438" />
-      <entry key="S30" value="2.8621955172001807" />
-      <entry key="S60" value="3.724826775744639" />
-      <entry key="M2" value="4.30006757384657" />
-      <entry key="M5" value="4.707224114679083" />
-      <entry key="M10" value="5.52545770022526" />
-      <entry key="M15" value="8.883032034977754" />
-      <entry key="M30" value="29.3993743282566" />
-      <entry key="H1" value="67.69104624565277" />
-      <entry key="H2" value="107.26255328574284" />
-      <entry key="H4" value="136.4816359500537" />
-      <entry key="D1" value="167.80367984705353" />
-      <entry key="W1" value="173.9509158038043" />
+      <entry key="MS100" value="1.3069715598040121" />
+      <entry key="MS500" value="3.6440964337823667" />
+      <entry key="S2" value="7.9877976540337565" />
+      <entry key="S5" value="13.085444960970792" />
+      <entry key="S10" value="16.563266221567297" />
+      <entry key="S30" value="19.896015644812277" />
+      <entry key="S60" value="20.905466691927803" />
+      <entry key="M2" value="21.49003991915769" />
+      <entry key="M5" value="24.096608368110488" />
+      <entry key="M10" value="30.55274574382531" />
+      <entry key="M15" value="35.44274427749052" />
+      <entry key="M30" value="43.20371926845178" />
+      <entry key="H1" value="49.77371890177386" />
+      <entry key="H2" value="71.31068854657674" />
+      <entry key="H4" value="155.8367665696826" />
+      <entry key="D1" value="688.8761937800309" />
+      <entry key="W1" value="984.5690319151647" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -110,38 +170,76 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build api-gateway.executor": "Run",
-    "Gradle.Build chatbot-engine.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Spring Boot.ApiGatewayApplication.executor": "Run",
-    "Spring Boot.ChatbotEngineApplication.executor": "Run",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/ChatBot-platform",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/ChatBot-platform/chatbot-engine/src/main/java/com/chatbot/Main.java",
-    "settings.editor.selected.configurable": "terminal",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build api-gateway.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build chatbot-bridge.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build chatbot-engine.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build organization-service.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ApiGatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ChatbotBridgeApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ChatbotEngineApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.OrganizationServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/ChatBot-platform&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/ChatBot-platform/chatbot-engine/src/main/java/com/chatbot/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\ChatBot-platform\chatbot-engine-fastapi\api" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="ApiGatewayApplication" value="STOPPED" />
+              <entry key="ChatbotBridgeApplication" value="STOPPED" />
+              <entry key="ChatbotEngineApplication" value="STOPPED" />
+              <entry key="OrganizationServiceApplication" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.OrganizationServiceApplication">
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="api-gateway.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.chatbot.apigateway.ApiGatewayApplication" />
@@ -149,9 +247,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ChatbotBridgeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="chatbot-bridge.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chatbot.chatbotbridge.ChatbotBridgeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ChatbotEngineApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="chatbot-engine.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.chatbot.engine.ChatbotEngineApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrganizationServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="organization-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chatbot.organizationservice.OrganizationServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -175,7 +287,16 @@
       <workItem from="1780908795659" duration="221000" />
       <workItem from="1780909995555" duration="54000" />
       <workItem from="1780910463593" duration="7971000" />
-      <workItem from="1780978537616" duration="5976000" />
+      <workItem from="1780978537616" duration="13342000" />
+      <workItem from="1781001785574" duration="3447000" />
+      <workItem from="1781064135746" duration="10076000" />
+      <workItem from="1781235862416" duration="14310000" />
+      <workItem from="1781496582936" duration="14372000" />
+      <workItem from="1781582500099" duration="12115000" />
+      <workItem from="1781674671342" duration="953000" />
+      <workItem from="1781840358018" duration="2144000" />
+      <workItem from="1782097710592" duration="18193000" />
+      <workItem from="1782186976320" duration="308000" />
     </task>
     <servers />
   </component>
@@ -184,5 +305,17 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.py" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/organization-service/organization-service/src/main/java/com/chatbot/organizationservice/controller/ContextController.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

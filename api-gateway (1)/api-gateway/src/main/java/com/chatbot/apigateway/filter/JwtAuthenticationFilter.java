@@ -1,5 +1,7 @@
 package com.chatbot.apigateway.filter;
-
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.context.SecurityContextHolder;
+import java.util.Collections;
 import com.chatbot.apigateway.security.JwtUtil;
 import io.jsonwebtoken.JwtException;
 import jakarta.servlet.FilterChain;
@@ -54,8 +56,23 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
         String token = authHeader.substring(7);
 
         try {
+
             JwtUtil.validateToken(token);
+            System.out.println("JWT VALID");
+
+            UsernamePasswordAuthenticationToken authentication =
+                    new UsernamePasswordAuthenticationToken(
+                            "vivek",
+                            null,
+                            Collections.emptyList()
+                    );
+
+            SecurityContextHolder.getContext()
+                    .setAuthentication(authentication);
+
         } catch (JwtException e) {
+
+            System.out.println("JWT INVALID");
 
             response.sendError(
                     HttpServletResponse.SC_UNAUTHORIZED,

@@ -5,56 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b99d4e7-cedc-429d-91fc-a6c7ddf148ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/chatbot-bridge.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway (1)/api-gateway/src/main/java/com/chatbot/apigateway/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway (1)/api-gateway/src/main/java/com/chatbot/apigateway/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway (1)/api-gateway/src/main/java/com/chatbot/apigateway/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway (1)/api-gateway/src/main/java/com/chatbot/apigateway/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway (1)/api-gateway/src/main/java/com/chatbot/apigateway/filter/JwtAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway (1)/api-gateway/src/main/java/com/chatbot/apigateway/security/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-bridge/chatbot-bridge/src/main/java/com/chatbot/chatbotbridge/config/OpenApiConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-bridge/chatbot-bridge/src/main/java/com/chatbot/chatbotbridge/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-engine-fastapi/api/engine_routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-engine-fastapi/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-engine-fastapi/models/chat_schema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-engine-fastapi/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-engine-fastapi/tests/test_chat_schema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-engine-fastapi/tests/test_health.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/organization-service/organization-service/src/main/java/com/chatbot/organizationservice/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/organization-service/organization-service/src/main/java/com/chatbot/organizationservice/controller/ContextController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/organization-service/organization-service/src/main/java/com/chatbot/organizationservice/controller/OrganizationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/organization-service/organization-service/src/main/java/com/chatbot/organizationservice/controller/ProjectController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/organization-service/organization-service/src/main/java/com/chatbot/organizationservice/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/organization-service/organization-service/src/main/java/com/chatbot/organizationservice/dto/ContextResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/organization-service/organization-service/src/main/java/com/chatbot/organizationservice/entity/Organization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/organization-service/organization-service/src/main/java/com/chatbot/organizationservice/entity/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/organization-service/organization-service/src/main/java/com/chatbot/organizationservice/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/organization-service/organization-service/src/main/java/com/chatbot/organizationservice/repository/OrganizationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/organization-service/organization-service/src/main/java/com/chatbot/organizationservice/repository/ProjectRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/organization-service/organization-service/src/main/java/com/chatbot/organizationservice/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/organization-service/organization-service/src/main/java/com/chatbot/organizationservice/service/OrganizationContextService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/organization-service/organization-service/src/main/java/com/chatbot/organizationservice/service/OrganizationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/organization-service/organization-service/src/main/java/com/chatbot/organizationservice/service/ProjectService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/organization-service/organization-service/src/main/java/com/chatbot/organizationservice/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway (1)/api-gateway/src/main/java/com/chatbot/apigateway/config/OpenApiConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization-service/organization-service/src/main/java/com/chatbot/organizationservice/config/OpenApiConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway (1)/api-gateway/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway (1)/api-gateway/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway (1)/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway (1)/api-gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-bridge/chatbot-bridge/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-bridge/chatbot-bridge/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-bridge/chatbot-bridge/src/main/java/com/chatbot/chatbotbridge/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-bridge/chatbot-bridge/src/main/java/com/chatbot/chatbotbridge/ChatController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-bridge/chatbot-bridge/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-bridge/chatbot-bridge/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-engine-fastapi/.env" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-engine-fastapi/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-engine-fastapi/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-engine-fastapi/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-engine/.gradle/9.3.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-engine/.gradle/9.3.0/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway (1)/api-gateway/src/main/java/com/chatbot/apigateway/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway (1)/api-gateway/src/main/java/com/chatbot/apigateway/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway (1)/api-gateway/src/main/java/com/chatbot/apigateway/filter/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway (1)/api-gateway/src/main/java/com/chatbot/apigateway/filter/JwtAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-bridge/chatbot-bridge/src/main/java/com/chatbot/chatbotbridge/config/OpenApiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-bridge/chatbot-bridge/src/main/java/com/chatbot/chatbotbridge/config/OpenApiConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-bridge/chatbot-bridge/src/main/java/com/chatbot/chatbotbridge/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-bridge/chatbot-bridge/src/main/java/com/chatbot/chatbotbridge/config/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chatbot-engine/.gradle/9.3.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-engine/.gradle/9.3.0/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chatbot-engine/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-engine/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-engine/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-engine/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-engine/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-engine/build/reports/problems/problems-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/organization-service/organization-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/organization-service/organization-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/organization-service/organization-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/organization-service/organization-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/organization-service/organization-service/src/main/java/com/chatbot/organizationservice/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/organization-service/organization-service/src/main/java/com/chatbot/organizationservice/config/SecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,61 +63,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.33678568616993" />
-      <entry key="MS500" value="3.663517023995948" />
-      <entry key="S2" value="7.982625512908129" />
-      <entry key="S5" value="12.897407660778947" />
-      <entry key="S10" value="16.12558417385403" />
-      <entry key="S30" value="19.135868330905865" />
-      <entry key="S60" value="20.03350109944619" />
-      <entry key="M2" value="20.55393768519974" />
-      <entry key="M5" value="22.996292048969863" />
-      <entry key="M10" value="29.065798890238067" />
-      <entry key="M15" value="33.659003630732386" />
-      <entry key="M30" value="40.947795531855746" />
-      <entry key="H1" value="47.120076934058794" />
-      <entry key="H2" value="67.78485895195836" />
-      <entry key="H4" value="149.60286967000113" />
-      <entry key="D1" value="670.0410438732166" />
-      <entry key="W1" value="959.7981654917481" />
+      <entry key="MS100" value="1.1513663171348478" />
+      <entry key="MS500" value="2.8203299207993258" />
+      <entry key="S2" value="4.262633376405198" />
+      <entry key="S5" value="4.684896511590466" />
+      <entry key="S10" value="4.838867765521739" />
+      <entry key="S30" value="4.945471891888545" />
+      <entry key="S60" value="4.972632387499807" />
+      <entry key="M2" value="4.9862901988173505" />
+      <entry key="M5" value="4.994509893207529" />
+      <entry key="M10" value="4.997714360155907" />
+      <entry key="M15" value="5.007341807504422" />
+      <entry key="M30" value="5.273997605068461" />
+      <entry key="H1" value="8.278620356174006" />
+      <entry key="H2" value="22.938715057965197" />
+      <entry key="H4" value="80.28769306297072" />
+      <entry key="D1" value="605.3214093935061" />
+      <entry key="W1" value="961.56844935114" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="9.779569383833256E-31" />
-      <entry key="MS500" value="9.955519937722385E-7" />
-      <entry key="S2" value="0.0315875532176154" />
-      <entry key="S5" value="0.2510766900172016" />
-      <entry key="S10" value="0.5010755332454393" />
-      <entry key="S30" value="0.7942692192923954" />
-      <entry key="S60" value="0.8912213852835497" />
-      <entry key="M2" value="0.9463753713833153" />
-      <entry key="M5" value="1.1058199949228005" />
-      <entry key="M10" value="1.4918000919197" />
-      <entry key="M15" value="1.7881181176185177" />
-      <entry key="M30" value="2.25904822668175" />
-      <entry key="H1" value="2.655601903717333" />
-      <entry key="H2" value="3.527287385417284" />
-      <entry key="H4" value="6.235513325659361" />
-      <entry key="D1" value="18.83656367108319" />
-      <entry key="W1" value="24.771170156359222" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="1.0627202143770794E-230" />
+      <entry key="S30" value="2.1985667071727876E-77" />
+      <entry key="S60" value="4.688887615600088E-39" />
+      <entry key="M2" value="6.847545264983715E-20" />
+      <entry key="M5" value="2.1588077342675585E-8" />
+      <entry key="M10" value="1.4693660691191096E-4" />
+      <entry key="M15" value="0.0027898227276568362" />
+      <entry key="M30" value="0.056686992128505705" />
+      <entry key="H1" value="0.3403234653798549" />
+      <entry key="H2" value="1.199160725943244" />
+      <entry key="H4" value="3.5092654684758378" />
+      <entry key="D1" value="17.44064844413439" />
+      <entry key="W1" value="25.298210282198824" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.3069715598040121" />
-      <entry key="MS500" value="3.6440964337823667" />
-      <entry key="S2" value="7.9877976540337565" />
-      <entry key="S5" value="13.085444960970792" />
-      <entry key="S10" value="16.563266221567297" />
-      <entry key="S30" value="19.896015644812277" />
-      <entry key="S60" value="20.905466691927803" />
-      <entry key="M2" value="21.49003991915769" />
-      <entry key="M5" value="24.096608368110488" />
-      <entry key="M10" value="30.55274574382531" />
-      <entry key="M15" value="35.44274427749052" />
-      <entry key="M30" value="43.20371926845178" />
-      <entry key="H1" value="49.77371890177386" />
-      <entry key="H2" value="71.31068854657674" />
-      <entry key="H4" value="155.8367665696826" />
-      <entry key="D1" value="688.8761937800309" />
-      <entry key="W1" value="984.5690319151647" />
+      <entry key="MS100" value="1.1178349166993569" />
+      <entry key="MS500" value="2.799290066870186" />
+      <entry key="S2" value="4.254211733171955" />
+      <entry key="S5" value="4.6811550461167695" />
+      <entry key="S10" value="4.836928949448899" />
+      <entry key="S30" value="4.944809895880625" />
+      <entry key="S60" value="4.972299385713406" />
+      <entry key="M2" value="4.9861231940634845" />
+      <entry key="M5" value="4.9944429914869355" />
+      <entry key="M10" value="4.99782743259069" />
+      <entry key="M15" value="5.010104110248739" />
+      <entry key="M30" value="5.330611531864447" />
+      <entry key="H1" value="8.618715868009739" />
+      <entry key="H2" value="24.137411374518464" />
+      <entry key="H4" value="83.79609907575161" />
+      <entry key="D1" value="622.7607879407229" />
+      <entry key="W1" value="986.866356782845" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -239,7 +200,7 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrganizationServiceApplication">
+  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="api-gateway.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.chatbot.apigateway.ApiGatewayApplication" />
@@ -296,7 +257,7 @@
       <workItem from="1781674671342" duration="953000" />
       <workItem from="1781840358018" duration="2144000" />
       <workItem from="1782097710592" duration="18193000" />
-      <workItem from="1782186976320" duration="308000" />
+      <workItem from="1782186976320" duration="11977000" />
     </task>
     <servers />
   </component>

@@ -34,8 +34,8 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
                 || path.startsWith("/v3/api-docs")
                 || path.startsWith("/bridge/v3/api-docs")
                 || path.startsWith("/organization/v3/api-docs")
-                || path.equals("/token")
-                || path.equals("/bridge/chat")) {
+                || path.equals("/token"))
+                 {
 
             filterChain.doFilter(request, response);
             return;

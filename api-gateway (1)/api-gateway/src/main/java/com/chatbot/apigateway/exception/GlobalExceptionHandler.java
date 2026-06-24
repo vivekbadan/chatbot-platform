@@ -9,15 +9,12 @@ import java.util.Map;
 
 @RestControllerAdvice
 public class GlobalExceptionHandler {
-
     @ExceptionHandler(Exception.class)
-    public ResponseEntity<Map<String, String>> handleException(
-            Exception ex) {
+    public ResponseEntity<String> handleException(Exception ex) {
 
-        return ResponseEntity
-                .status(HttpStatus.INTERNAL_SERVER_ERROR)
-                .body(Map.of(
-                        "error", ex.getMessage()
-                ));
+        System.out.println("Gateway Error: " + ex.getMessage());
+
+        return ResponseEntity.status(500)
+                .body("Gateway Error: Internal Server Error");
     }
 }

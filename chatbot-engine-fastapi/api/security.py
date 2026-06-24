@@ -1,13 +1,13 @@
-from typing import Optional
 from fastapi import Header, HTTPException
 
-INTERNAL_API_KEY = "chatbot-secret-key"
+def verify_internal_key(x_internal_key: str = Header(...)):
 
-def verify_internal_key(
-        x_internal_key: Optional[str] = Header(None)
-):
-    if x_internal_key != INTERNAL_API_KEY:
+    print("Validating internal API key...")
+
+    if x_internal_key != "chatbot-secret-key":
         raise HTTPException(
-            status_code=401,
+            status_code=403,
             detail="Invalid Internal API Key"
         )
+
+    print("Internal API key validated successfully")

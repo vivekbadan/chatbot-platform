@@ -29,9 +29,12 @@ async def global_exception_handler(
         request: Request,
         exc: Exception):
 
+    print(f"Unhandled Exception: {exc}")
+
     return JSONResponse(
         status_code=500,
         content={
+            "status": "FAILED",
             "error": str(exc)
         }
     )

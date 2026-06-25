@@ -14,7 +14,7 @@ ENVIRONMENT = os.getenv("ENVIRONMENT")
 
 app = FastAPI()
 
-# CORS Configuration
+# Configure CORS to allow frontend and microservice communication
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],

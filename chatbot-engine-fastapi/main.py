@@ -1,13 +1,16 @@
 from fastapi import FastAPI, Depends, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
-from dotenv import load_dotenv
+
 from api.engine_routes import router as engine_router
 from api.security import verify_internal_key
+
+from dotenv import load_dotenv
 import os
 
 load_dotenv()
 
+from api.groq_service import get_ai_response
 APP_NAME = os.getenv("APP_NAME")
 APP_PORT = os.getenv("APP_PORT")
 ENVIRONMENT = os.getenv("ENVIRONMENT")
@@ -59,10 +62,13 @@ def chat(
         message: str,
         _: None = Depends(verify_internal_key)
 ):
-    return {
-        "response": f"You said: {message}"
-    }
 
+    ai_response = get_ai_response(message)
+
+    return {
+        "user_message": message,
+        "ai_response": ai_response
+    }
 # Temporary Test Endpoint
 @app.get("/error-test")
 def error_test():

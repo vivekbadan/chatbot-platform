@@ -14,9 +14,10 @@ public class ChatController {
     @GetMapping("/chat")
     public String chat(
             @RequestParam String message,
-            @RequestHeader(value = "X-User-Id",
-                    required = false) String userId) {
+            @RequestHeader(value = "X-User-Id", required = false) String userId) {
 
+        System.out.println("===== ChatController Called =====");
+        System.out.println("Message = " + message);
         System.out.println("Received X-User-Id = " + userId);
 
         RestTemplate restTemplate = new RestTemplate();
@@ -25,6 +26,8 @@ public class ChatController {
                 new org.springframework.http.HttpHeaders();
 
         headers.set("X-Internal-Key", "chatbot-secret-key");
+
+        System.out.println("Calling FastAPI...");
 
         org.springframework.http.HttpEntity<String> entity =
                 new org.springframework.http.HttpEntity<>(headers);
@@ -37,8 +40,11 @@ public class ChatController {
                         String.class
                 );
 
+        System.out.println("FastAPI Response = " + response.getBody());
+
         return response.getBody();
-
-
     }
+
+
+
 }

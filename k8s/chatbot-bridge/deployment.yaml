@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: chatbot-bridge
+  labels:
+    app: chatbot-bridge
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: chatbot-bridge
+  template:
+    metadata:
+      labels:
+        app: chatbot-bridge
+    spec:
+      containers:
+        - name: chatbot-bridge
+          image: chatbot-bridge:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8081
+          envFrom:
+            - configMapRef:
+                name: chatbot-bridge-config
+            - secretRef:
+                name: chatbot-bridge-secret

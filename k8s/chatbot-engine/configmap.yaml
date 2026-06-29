@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: chatbot-engine-config
+data:
+  APP_NAME: "chatbot-engine"
+  SERVER_PORT: "8083"

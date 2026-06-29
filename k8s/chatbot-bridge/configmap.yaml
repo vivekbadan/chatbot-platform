@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: chatbot-bridge-config
+data:
+  APP_NAME: "chatbot-bridge"
+  SERVER_PORT: "8081"

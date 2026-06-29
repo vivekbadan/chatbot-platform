@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: organization-service-config
+data:
+  APP_NAME: "organization-service"
+  SERVER_PORT: "8082"

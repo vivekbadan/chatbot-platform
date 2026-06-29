@@ -1,7 +1,11 @@
 package com.chatbot.chatbotbridge.entity;
 
 import jakarta.persistence.*;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.time.LocalDateTime;
 
@@ -23,11 +27,11 @@ public class Message {
     @Column(columnDefinition = "TEXT")
     private String content;
 
-    private LocalDateTime createdAt;
-
     @ManyToOne
     @JoinColumn(name = "conversation_id")
     private Conversation conversation;
+
+    private LocalDateTime createdAt;
 
     @PrePersist
     public void onCreate() {

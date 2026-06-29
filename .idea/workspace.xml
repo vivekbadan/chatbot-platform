@@ -5,17 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b99d4e7-cedc-429d-91fc-a6c7ddf148ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api-gateway (1)/api-gateway/src/main/java/com/chatbot/apigateway/config/OpenApiConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/organization-service/organization-service/src/main/java/com/chatbot/organizationservice/config/OpenApiConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-bridge/chatbot-bridge/src/main/java/com/chatbot/chatbotbridge/service/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-engine-fastapi/test_gemini.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway (1)/api-gateway/src/main/java/com/chatbot/apigateway/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway (1)/api-gateway/src/main/java/com/chatbot/apigateway/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway (1)/api-gateway/src/main/java/com/chatbot/apigateway/filter/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway (1)/api-gateway/src/main/java/com/chatbot/apigateway/filter/JwtAuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-bridge/chatbot-bridge/src/main/java/com/chatbot/chatbotbridge/config/OpenApiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-bridge/chatbot-bridge/src/main/java/com/chatbot/chatbotbridge/config/OpenApiConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-bridge/chatbot-bridge/src/main/java/com/chatbot/chatbotbridge/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-bridge/chatbot-bridge/src/main/java/com/chatbot/chatbotbridge/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-bridge/chatbot-bridge/src/main/java/com/chatbot/chatbotbridge/controller/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-bridge/chatbot-bridge/src/main/java/com/chatbot/chatbotbridge/controller/ChatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-bridge/chatbot-bridge/src/main/java/com/chatbot/chatbotbridge/controller/ConversationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-bridge/chatbot-bridge/src/main/java/com/chatbot/chatbotbridge/controller/ConversationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-bridge/chatbot-bridge/src/main/java/com/chatbot/chatbotbridge/entity/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-bridge/chatbot-bridge/src/main/java/com/chatbot/chatbotbridge/entity/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-engine-fastapi/.env" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-engine-fastapi/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-engine/.gradle/9.3.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-engine/.gradle/9.3.0/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chatbot-engine/.gradle/9.3.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-engine/.gradle/9.3.0/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chatbot-engine/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-engine/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/organization-service/organization-service/src/main/java/com/chatbot/organizationservice/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/organization-service/organization-service/src/main/java/com/chatbot/organizationservice/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-engine/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-engine/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-engine/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-engine/build/reports/problems/problems-report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,61 +64,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.1513663171348478" />
-      <entry key="MS500" value="2.8203299207993258" />
-      <entry key="S2" value="4.262633376405198" />
-      <entry key="S5" value="4.684896511590466" />
-      <entry key="S10" value="4.838867765521739" />
-      <entry key="S30" value="4.945471891888545" />
-      <entry key="S60" value="4.972632387499807" />
-      <entry key="M2" value="4.9862901988173505" />
-      <entry key="M5" value="4.994509893207529" />
-      <entry key="M10" value="4.997714360155907" />
-      <entry key="M15" value="5.007341807504422" />
-      <entry key="M30" value="5.273997605068461" />
-      <entry key="H1" value="8.278620356174006" />
-      <entry key="H2" value="22.938715057965197" />
-      <entry key="H4" value="80.28769306297072" />
-      <entry key="D1" value="605.3214093935061" />
-      <entry key="W1" value="961.56844935114" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0" />
+      <entry key="S60" value="1.0" />
+      <entry key="M2" value="1.0" />
+      <entry key="M5" value="1.0000005059877524" />
+      <entry key="M10" value="1.0020488689581335" />
+      <entry key="M15" value="1.036845895362462" />
+      <entry key="M30" value="1.9476892866561104" />
+      <entry key="H1" value="9.779250951436405" />
+      <entry key="H2" value="43.46215551285753" />
+      <entry key="H4" value="126.83835739930808" />
+      <entry key="D1" value="744.0265699914693" />
+      <entry key="W1" value="1287.774745416139" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
       <entry key="S5" value="0.0" />
-      <entry key="S10" value="1.0627202143770794E-230" />
-      <entry key="S30" value="2.1985667071727876E-77" />
-      <entry key="S60" value="4.688887615600088E-39" />
-      <entry key="M2" value="6.847545264983715E-20" />
-      <entry key="M5" value="2.1588077342675585E-8" />
-      <entry key="M10" value="1.4693660691191096E-4" />
-      <entry key="M15" value="0.0027898227276568362" />
-      <entry key="M30" value="0.056686992128505705" />
-      <entry key="H1" value="0.3403234653798549" />
-      <entry key="H2" value="1.199160725943244" />
-      <entry key="H4" value="3.5092654684758378" />
-      <entry key="D1" value="17.44064844413439" />
-      <entry key="W1" value="25.298210282198824" />
+      <entry key="S10" value="1.4164600565050632E-231" />
+      <entry key="S30" value="1.1230560817354845E-77" />
+      <entry key="S60" value="3.351202891105647E-39" />
+      <entry key="M2" value="5.788957497775957E-20" />
+      <entry key="M5" value="2.018553019687564E-8" />
+      <entry key="M10" value="1.4210370441114975E-4" />
+      <entry key="M15" value="0.0027320549497863444" />
+      <entry key="M30" value="0.05562382143330697" />
+      <entry key="H1" value="0.3207313796633252" />
+      <entry key="H2" value="1.1326066131891015" />
+      <entry key="H4" value="3.0348062552092343" />
+      <entry key="D1" value="18.388131936748838" />
+      <entry key="W1" value="30.954903416994355" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.1178349166993569" />
-      <entry key="MS500" value="2.799290066870186" />
-      <entry key="S2" value="4.254211733171955" />
-      <entry key="S5" value="4.6811550461167695" />
-      <entry key="S10" value="4.836928949448899" />
-      <entry key="S30" value="4.944809895880625" />
-      <entry key="S60" value="4.972299385713406" />
-      <entry key="M2" value="4.9861231940634845" />
-      <entry key="M5" value="4.9944429914869355" />
-      <entry key="M10" value="4.99782743259069" />
-      <entry key="M15" value="5.010104110248739" />
-      <entry key="M30" value="5.330611531864447" />
-      <entry key="H1" value="8.618715868009739" />
-      <entry key="H2" value="24.137411374518464" />
-      <entry key="H4" value="83.79609907575161" />
-      <entry key="D1" value="622.7607879407229" />
-      <entry key="W1" value="986.866356782845" />
+      <entry key="MS100" value="0.045122787360078" />
+      <entry key="MS500" value="0.5381200623918986" />
+      <entry key="S2" value="0.8564850682199088" />
+      <entry key="S5" value="0.9399135670034672" />
+      <entry key="S10" value="0.9694913960440634" />
+      <entry key="S30" value="0.9897252565647912" />
+      <entry key="S60" value="0.9948493637555341" />
+      <entry key="M2" value="0.9974213571783663" />
+      <entry key="M5" value="0.9989682690652001" />
+      <entry key="M10" value="1.0016727849030758" />
+      <entry key="M15" value="1.03921186631073" />
+      <entry key="M30" value="2.0029427554682018" />
+      <entry key="H1" value="10.09941823957091" />
+      <entry key="H2" value="44.59404188964045" />
+      <entry key="H4" value="129.87232558793076" />
+      <entry key="D1" value="762.4135228790043" />
+      <entry key="W1" value="1318.7293155001285" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -200,7 +201,7 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
+  <component name="RunManager" selected="Spring Boot.ChatbotBridgeApplication">
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="api-gateway.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.chatbot.apigateway.ApiGatewayApplication" />
@@ -257,7 +258,12 @@
       <workItem from="1781674671342" duration="953000" />
       <workItem from="1781840358018" duration="2144000" />
       <workItem from="1782097710592" duration="18193000" />
-      <workItem from="1782186976320" duration="11977000" />
+      <workItem from="1782186976320" duration="13079000" />
+      <workItem from="1782272349165" duration="4911000" />
+      <workItem from="1782355152648" duration="503000" />
+      <workItem from="1782358818632" duration="2090000" />
+      <workItem from="1782444891748" duration="15206000" />
+      <workItem from="1782704807709" duration="12207000" />
     </task>
     <servers />
   </component>

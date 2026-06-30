@@ -1,5 +1,5 @@
 package com.chatbot.organizationservice.controller;
-
+import com.chatbot.organizationservice.dto.UserContextResponse;
 import com.chatbot.organizationservice.entity.Organization;
 import com.chatbot.organizationservice.repository.OrganizationRepository;
 import org.springframework.web.bind.annotation.*;
@@ -15,7 +15,17 @@ public class OrganizationController {
     public OrganizationController(OrganizationRepository repository) {
         this.repository = repository;
     }
+    @GetMapping("/internal/context")
+    public UserContextResponse getUserContext(
+            @RequestParam String userId) {
 
+        return new UserContextResponse(
+                userId,
+                "ORG-001",
+                "Accenture",
+                "AI Chatbot Platform"
+        );
+    }
     @PostMapping
     public Organization createOrganization(@RequestBody Organization organization) {
         return repository.save(organization);

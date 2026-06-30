@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
+import com.chatbot.chatbotbridge.dto.UserContextResponse;
 
 @CrossOrigin(origins = "*")
 @RestController
@@ -58,6 +59,21 @@ public class ChatController {
         System.out.println("User message saved successfully.");
 
         System.out.println("Conversation Loaded = " + conversation.getId());
+
+        String url =
+                "http://localhost:8081/organizations/internal/context?userId=" + userId;
+
+        UserContextResponse context =
+                restTemplate.getForObject(
+                        url,
+                        UserContextResponse.class
+                );
+
+        System.out.println("========== USER CONTEXT ==========");
+        System.out.println("User ID = " + context.getUserId());
+        System.out.println("Organization ID = " + context.getOrganizationId());
+        System.out.println("Organization Name = " + context.getOrganizationName());
+        System.out.println("Project Name = " + context.getProjectName());
 
 //        RestTemplate restTemplate = new RestTemplate();
 

@@ -1,7 +1,7 @@
 from fastapi import FastAPI, Depends, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
-
+from urllib.parse import unquote
 from api.engine_routes import router as engine_router
 from api.security import verify_internal_key
 
@@ -57,11 +57,19 @@ def config():
     }
 
 # Protected Endpoint
+# Protected Endpoint
 @app.get("/chat")
 def chat(
         message: str,
         _: None = Depends(verify_internal_key)
 ):
+
+    # Decode the URL-encoded message
+    message = unquote(unquote(message))
+
+    print("\n========== RECEIVED PROMPT ==========")
+    print(message)
+    print("=====================================\n")
 
     ai_response = get_ai_response(message)
 

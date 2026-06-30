@@ -10,6 +10,10 @@ client = Groq(
 
 def get_ai_response(message: str):
 
+    print("\n========== PROMPT SENT TO GROQ ==========")
+    print(message)
+    print("=========================================\n")
+
     chat_completion = client.chat.completions.create(
         model="llama-3.1-8b-instant",
         messages=[
@@ -22,4 +26,11 @@ def get_ai_response(message: str):
         max_tokens=200
     )
 
-    return chat_completion.choices[0].message.content
+    ai_response = chat_completion.choices[0].message.content
+
+    print("\n========== GROQ RESPONSE ==========")
+    print(ai_response)
+    print("==================================\n")
+
+    return ai_response
+

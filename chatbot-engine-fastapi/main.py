@@ -2,22 +2,23 @@ from fastapi import FastAPI, Depends, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from urllib.parse import unquote
+
 from api.engine_routes import router as engine_router
 from api.security import verify_internal_key
+from api.llm_service import generate_response
 
 from dotenv import load_dotenv
 import os
 
 load_dotenv()
 
-from api.groq_service import get_ai_response
 APP_NAME = os.getenv("APP_NAME")
 APP_PORT = os.getenv("APP_PORT")
 ENVIRONMENT = os.getenv("ENVIRONMENT")
 
 app = FastAPI()
 
-# Configure CORS to allow frontend and microservice communication
+# Configure CORS
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -57,26 +58,27 @@ def config():
     }
 
 # Protected Endpoint
-# Protected Endpoint
 @app.get("/chat")
 def chat(
         message: str,
         _: None = Depends(verify_internal_key)
 ):
 
-    # Decode the URL-encoded message
+    # Decode the prompt received from Chatbot Bridge
     message = unquote(unquote(message))
 
     print("\n========== RECEIVED PROMPT ==========")
     print(message)
     print("=====================================\n")
 
-    ai_response = get_ai_response(message)
+    # Call the centralized LLM service
+    ai_response = generate_response(message)
 
     return {
         "user_message": message,
         "ai_response": ai_response
     }
+
 # Temporary Test Endpoint
 @app.get("/error-test")
 def error_test():

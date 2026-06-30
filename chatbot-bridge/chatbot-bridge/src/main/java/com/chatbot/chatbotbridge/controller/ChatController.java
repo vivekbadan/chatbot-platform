@@ -1,7 +1,7 @@
 package com.chatbot.chatbotbridge.controller;
 import com.chatbot.chatbotbridge.entity.Conversation;
 import com.chatbot.chatbotbridge.entity.Message;
-
+import org.springframework.web.client.RestTemplate;
 import com.chatbot.chatbotbridge.entity.Conversation;
 import com.chatbot.chatbotbridge.service.ConversationService;
 import com.chatbot.chatbotbridge.service.MessageService;
@@ -22,11 +22,15 @@ public class ChatController {
 
     private final ConversationService conversationService;
     private final MessageService messageService;
+    private final RestTemplate restTemplate;
 
     public ChatController(ConversationService conversationService,
-                          MessageService messageService) {
+                          MessageService messageService,
+                          RestTemplate restTemplate) {
+
         this.conversationService = conversationService;
         this.messageService = messageService;
+        this.restTemplate = restTemplate;
     }
 
     @GetMapping("/chat")
@@ -55,7 +59,7 @@ public class ChatController {
 
         System.out.println("Conversation Loaded = " + conversation.getId());
 
-        RestTemplate restTemplate = new RestTemplate();
+//        RestTemplate restTemplate = new RestTemplate();
 
         HttpHeaders headers = new HttpHeaders();
         headers.set("X-Internal-Key", "chatbot-secret-key");

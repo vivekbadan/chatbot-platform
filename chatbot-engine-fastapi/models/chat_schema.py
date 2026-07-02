@@ -1,7 +1,5 @@
 from pydantic import BaseModel, Field
 from typing import Optional
-
-
 class ChatRequest(BaseModel):
     message: str = Field(
         ...,
@@ -15,12 +13,9 @@ class ChatRequest(BaseModel):
         gt=0,
         description="Organization ID"
     )
-
-
 class ChatResponse(BaseModel):
     response: str
-
-
+    token_count: int
 class EngineHealthResponse(BaseModel):
     status: str
     version: str

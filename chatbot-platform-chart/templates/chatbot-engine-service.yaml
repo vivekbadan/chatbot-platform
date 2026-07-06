@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: chatbot-engine
+spec:
+  type: ClusterIP
+  selector:
+    app: chatbot-engine
+  ports:
+    - port: {{ .Values.chatbotEngine.port }}
+      targetPort: {{ .Values.chatbotEngine.port }}

@@ -1,0 +1,26 @@
+replicaCount: 3
+
+image:
+  repository: chatbot-api-gateway
+  tag: prod
+  pullPolicy: IfNotPresent
+
+service:
+  type: NodePort
+  port: 8080
+  nodePort: 30080
+
+chatbotEngine:
+  image: chatbot-engine
+  port: 8083
+  replicas: 3
+
+chatbotBridge:
+  image: chatbot-bridge
+  port: 8081
+  replicas: 3
+
+organizationService:
+  image: organization-service
+  port: 8082
+  replicas: 3

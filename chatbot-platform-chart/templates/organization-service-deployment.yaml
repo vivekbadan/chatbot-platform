@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: organization-service
+spec:
+  replicas: {{ .Values.organizationService.replicas }}
+  selector:
+    matchLabels:
+      app: organization-service
+  template:
+    metadata:
+      labels:
+        app: organization-service
+    spec:
+      containers:
+        - name: organization-service
+          image: "{{ .Values.organizationService.image }}:latest"
+          ports:
+            - containerPort: {{ .Values.organizationService.port }}

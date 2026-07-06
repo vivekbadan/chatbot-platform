@@ -1,0 +1,45 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api-gateway
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: api-gateway
+  template:
+    metadata:
+      labels:
+        app: api-gateway
+    spec:
+      containers:
+        - name: api-gateway
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          ports:
+            - containerPort: {{ .Values.service.port }}
+
+          env:
+            - name: APP_NAME
+              value: "{{ .Values.config.APP_NAME }}"
+
+            - name: CHATBOT_ENGINE_URL
+              value: "{{ .Values.config.CHATBOT_ENGINE_URL }}"
+
+            - name: SERVER_PORT
+              value: "{{ .Values.config.SERVER_PORT }}"
+
+            - name: DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: api-gateway-secret
+                  key: DB_PASSWORD
+
+            - name: API_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: api-gateway-secret
+                  key: API_TOKEN
+
+          resources:
+{{ toYaml .Values.resources | indent 12 }}

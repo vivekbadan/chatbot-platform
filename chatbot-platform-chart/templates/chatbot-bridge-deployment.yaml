@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: chatbot-bridge
+spec:
+  replicas: {{ .Values.chatbotBridge.replicas }}
+  selector:
+    matchLabels:
+      app: chatbot-bridge
+  template:
+    metadata:
+      labels:
+        app: chatbot-bridge
+    spec:
+      containers:
+        - name: chatbot-bridge
+          image: "{{ .Values.chatbotBridge.image }}:latest"
+          ports:
+            - containerPort: {{ .Values.chatbotBridge.port }}

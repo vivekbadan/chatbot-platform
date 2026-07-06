@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: chatbot-engine
+spec:
+  replicas: {{ .Values.chatbotEngine.replicas }}
+  selector:
+    matchLabels:
+      app: chatbot-engine
+  template:
+    metadata:
+      labels:
+        app: chatbot-engine
+    spec:
+      containers:
+        - name: chatbot-engine
+          image: "{{ .Values.chatbotEngine.image }}:latest"
+          ports:
+            - containerPort: {{ .Values.chatbotEngine.port }}

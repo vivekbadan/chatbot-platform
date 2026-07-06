@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: chatbot-bridge
+spec:
+  type: ClusterIP
+  selector:
+    app: chatbot-bridge
+  ports:
+    - port: {{ .Values.chatbotBridge.port }}
+      targetPort: {{ .Values.chatbotBridge.port }}

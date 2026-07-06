@@ -22,12 +22,12 @@ public class ConversationController {
             @RequestBody Conversation conversation,
             @RequestHeader(value = "X-User-Id", required = false) String userId) {
 
-        // Store userId coming from Gateway/JWT
+        System.out.println("===== CREATE CONVERSATION CALLED =====");
+
         conversation.setUserId(userId);
 
         return service.createConversation(conversation);
     }
-
     // Get All Conversations
     @GetMapping
     public List<Conversation> getAllConversations() {
@@ -48,6 +48,7 @@ public class ConversationController {
 
         return service.updateConversation(id, conversation);
     }
+
 
     // Delete Conversation
     @DeleteMapping("/{id}")
